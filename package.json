@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "$(npm bin)/mocha --reporter spec",
-    "babelify:test": "$(npm bin)/babel test/tests.es6 --out-file test.tests.js",
+    "babelify:test": "$(npm bin)/babel test/tests.es6 --out-file test/tests.js",
     "babelify:app": "$(npm bin)/babel index.es6 --out-file index.js",
     "babelify": "npm run babelify:test && npm run babelify:app"
   },
