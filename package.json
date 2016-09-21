@@ -9,7 +9,8 @@
     ]
   },
   "scripts": {
-    "test": "$(npm bin)/mocha --reporter spec"
+    "test": "$(npm bin)/mocha --reporter spec",
+    "babelify": "$(npm bin)/babel test/tests.es6 --out-file test/tests.js"
   },
   "repository": {
     "type": "git",
