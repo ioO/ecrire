@@ -1,0 +1,24 @@
+{
+  "name": "ecrire",
+  "version": "0.0.1",
+  "description": "A pet project to learn javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioO/ecrire.git"
+  },
+  "keywords": [
+    "Javascript",
+    "blog",
+    "static"
+  ],
+  "author": "Lionel Chanson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ioO/ecrire/issues"
+  },
+  "homepage": "https://github.com/ioO/ecrire#readme"
+}
