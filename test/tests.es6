@@ -1,15 +1,20 @@
-import assert from 'assert';
-import result from '../index';
+import {assert,expect} from 'chai';
+import {result} from '../index';
 
-describe('Array', function() {
+describe('result', function() {
   describe('#indexOf()', function() {
     it('should return -1 when the value is not present', function() {
-      assert.equal(-1, [1,2,3].indexOf(4));
+      assert.equal(-1, result.indexOf(1));
     });
   });
   describe('#isArray', function() {
-    it('should be [2,3,4] array', function() {
-      assert.equal([2,3,4], result);
+    it('should be an array', function() {
+      assert.isArray(result);
+    });
+  });
+  describe('#value', function() {
+    it('should be equal to [2,3,4]', function() {
+      expect(result).to.eql([2,3,4]);
     });
   });
 });
